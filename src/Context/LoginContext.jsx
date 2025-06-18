@@ -1,4 +1,3 @@
-// src/Context/LoginContext.js
 import React, { createContext, useState } from 'react';
 
 export const LoginContext = createContext();
