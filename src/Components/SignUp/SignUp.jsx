@@ -23,14 +23,12 @@ const SignUp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // You can add validation or API call here
-
     setUserdata({
       name: form.name,
       email: form.email
     });
 
-    navigate('/profile'); // ✅ Redirect to profile after signup
+    navigate('/profile'); 
   };
 
   return (
