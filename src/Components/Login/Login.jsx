@@ -14,9 +14,8 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // ✅ Set dummy user data for now (since no backend)
     setUserdata({
-      name: 'John Doe', // you can update based on actual data if available
+      name: 'John Doe', 
       email: form.email,
     });
 
